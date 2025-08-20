@@ -1,4 +1,6 @@
-# BRAC University Connect - Setup Guide
+# MyCampus - BRAC University Connect
+
+All-in-one university super-app with academics, campus life, financials, communication, and digital services.
 
 ## 🚀 Quick Start
 
