@@ -1,0 +1,48 @@
+{
+  "name": "brac-university-connect-backend",
+  "version": "1.0.0",
+  "description": "Backend API for BRAC University Connect App",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "clean": "rmdir /s /q dist || echo \"Directory not found\"",
+    "prebuild": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "university",
+    "student-portal",
+    "campus-management",
+    "mern-stack",
+    "api"
+  ],
+  "author": "BRAC University",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.4-lts.1",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
